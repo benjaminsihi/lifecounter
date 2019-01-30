@@ -48,6 +48,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="playerOnePlusOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sRQ-i1-XPd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2Y-g3-lld">
                                 <rect key="frame" x="91" y="144" width="41" height="41"/>
@@ -55,6 +58,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="PlayerOneMinusOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fsI-jb-9Pw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZK-hj-UJC">
                                 <rect key="frame" x="148" y="144" width="41" height="41"/>
@@ -62,6 +68,9 @@
                                 <state key="normal" title="+ 5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="playerOnePlusFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sJB-6l-58s"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8K-bI-ssX">
                                 <rect key="frame" x="204" y="144" width="41" height="41"/>
@@ -69,6 +78,9 @@
                                 <state key="normal" title="- 5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="playerOneMinusFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lnN-Ll-Een"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCI-Vu-Y1C">
                                 <rect key="frame" x="34" y="249" width="41" height="41"/>
@@ -76,6 +88,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="palyer2PlusOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XFd-nn-MO6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFo-ue-fSv">
                                 <rect key="frame" x="91" y="249" width="41" height="41"/>
@@ -83,6 +98,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="player2MinusOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z7t-G4-4B5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lg-Ep-mvm">
                                 <rect key="frame" x="148" y="249" width="41" height="41"/>
@@ -90,6 +108,9 @@
                                 <state key="normal" title="+ 5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="player2PlusOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6W4-U6-yDD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOe-Ld-ggC">
                                 <rect key="frame" x="204" y="249" width="41" height="41"/>
@@ -97,6 +118,9 @@
                                 <state key="normal" title="- 5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="player2MinusFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ldq-eK-JAh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Zn-Kh-bKf">
                                 <rect key="frame" x="34" y="352" width="41" height="41"/>
@@ -104,6 +128,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="player3PlusOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rRt-Px-rU2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdf-PK-CMV">
                                 <rect key="frame" x="91" y="352" width="41" height="41"/>
@@ -111,6 +138,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="player3MinusOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mOv-Dl-faP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7z-Ph-TSn">
                                 <rect key="frame" x="148" y="352" width="41" height="41"/>
@@ -118,6 +148,9 @@
                                 <state key="normal" title="+ 5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="player3PlusFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SDu-aG-xqn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2V2-Bn-XBP">
                                 <rect key="frame" x="204" y="352" width="41" height="41"/>
@@ -125,6 +158,9 @@
                                 <state key="normal" title="- 5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="player3MinusFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0df-x4-JwT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQU-nK-YdA">
                                 <rect key="frame" x="34" y="465" width="41" height="41"/>
@@ -132,6 +168,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="player4PlusOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TmT-hF-9Jl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4p4-gT-iG0">
                                 <rect key="frame" x="91" y="465" width="41" height="41"/>
@@ -139,6 +178,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="player4MinusOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bxG-cE-JqL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJg-zy-bLq">
                                 <rect key="frame" x="148" y="465" width="41" height="41"/>
@@ -146,6 +188,9 @@
                                 <state key="normal" title="+ 5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="player4PlusFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1zm-UL-Yh0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwf-ee-2BN">
                                 <rect key="frame" x="204" y="465" width="41" height="41"/>
@@ -153,39 +198,42 @@
                                 <state key="normal" title="- 5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="player4MinusFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ics-Ew-Y5p"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LifeCounter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtF-hP-mrp">
-                                <rect key="frame" x="108" y="41" width="141.5" height="33.5"/>
+                                <rect key="frame" x="87.5" y="41" width="141.5" height="33.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" red="0.070178854220000003" green="0.035055577820000003" blue="0.71619980569999997" alpha="0.70210717430000003" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7B2-k8-Idg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="ifGameOverOutput" text="Game is still on" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7B2-k8-Idg">
                                 <rect key="frame" x="33" y="541" width="212" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.070178854220000003" green="0.035055577820000003" blue="0.71619980569999997" alpha="0.70210717430000003" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9E-Ur-9wO">
-                                <rect key="frame" x="148" y="113" width="61.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="player1LifeCountLabel" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9E-Ur-9wO">
+                                <rect key="frame" x="148" y="113" width="20.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PO5-L1-yW0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="player2LifeCountLabel" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PO5-L1-yW0">
                                 <rect key="frame" x="147" y="220" width="21" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgr-Sa-Btl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Player3LlfeCount" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgr-Sa-Btl">
                                 <rect key="frame" x="147" y="323" width="27" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULm-5o-C3P">
-                                <rect key="frame" x="147" y="436" width="27" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="player4LifeCountLabel" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULm-5o-C3P">
+                                <rect key="frame" x="147" y="436" width="20.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -198,6 +246,7 @@
                             <constraint firstItem="sCI-Vu-Y1C" firstAttribute="height" secondItem="CFo-ue-fSv" secondAttribute="height" id="0Fz-BE-w6J"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="Rel-0U-Bza" secondAttribute="trailing" constant="-144" id="0mz-Np-pex"/>
                             <constraint firstItem="6Zn-Kh-bKf" firstAttribute="width" secondItem="vdf-PK-CMV" secondAttribute="width" id="17i-js-vp1"/>
+                            <constraint firstItem="t19-Rl-E1y" firstAttribute="leading" secondItem="Xgr-Sa-Btl" secondAttribute="trailing" constant="-140" id="3Ut-S9-sqZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t19-Rl-E1y" secondAttribute="trailing" constant="231" id="4ZD-Mv-x7Y"/>
                             <constraint firstItem="gZK-hj-UJC" firstAttribute="leading" secondItem="h2Y-g3-lld" secondAttribute="trailing" constant="16" id="ARn-HC-Kgz"/>
                             <constraint firstItem="h7z-Ph-TSn" firstAttribute="height" secondItem="2V2-Bn-XBP" secondAttribute="height" id="AlS-2O-9be"/>
@@ -216,6 +265,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="YHi-mU-9Xg" secondAttribute="trailing" constant="-141" id="I9K-Bg-VH0"/>
                             <constraint firstItem="n8K-bI-ssX" firstAttribute="leading" secondItem="gZK-hj-UJC" secondAttribute="trailing" constant="15" id="Ira-Xn-tle"/>
                             <constraint firstItem="7B2-k8-Idg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="JEf-hd-se4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ULm-5o-C3P" secondAttribute="trailing" symbolic="YES" id="JHm-4E-m5d"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="G10-Lz-9VB" secondAttribute="trailing" constant="-75" id="JOH-em-OmA"/>
                             <constraint firstItem="6Zn-Kh-bKf" firstAttribute="height" secondItem="vdf-PK-CMV" secondAttribute="height" id="KRx-sR-Jpf"/>
                             <constraint firstItem="nJg-zy-bLq" firstAttribute="leading" secondItem="4p4-gT-iG0" secondAttribute="trailing" constant="16" id="LMn-Tq-8l1"/>
@@ -248,7 +298,7 @@
                             <constraint firstItem="2V2-Bn-XBP" firstAttribute="leading" secondItem="h7z-Ph-TSn" secondAttribute="trailing" constant="15" id="Vc8-Us-M1r"/>
                             <constraint firstItem="nJg-zy-bLq" firstAttribute="height" secondItem="mwf-ee-2BN" secondAttribute="height" id="XGZ-M0-88d"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2bw-oq-hfS" secondAttribute="trailing" constant="230" id="XJc-Uc-Uc1"/>
-                            <constraint firstItem="dtF-hP-mrp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="Xk5-DV-Wk5"/>
+                            <constraint firstItem="dtF-hP-mrp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xk5-DV-Wk5"/>
                             <constraint firstItem="2bw-oq-hfS" firstAttribute="leading" secondItem="gQU-nK-YdA" secondAttribute="leading" id="Zmh-OS-eCn"/>
                             <constraint firstItem="mwf-ee-2BN" firstAttribute="leading" secondItem="nJg-zy-bLq" secondAttribute="trailing" constant="15" id="a5K-wd-w1U"/>
                             <constraint firstItem="G10-Lz-9VB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="a9e-1m-Qx1"/>
@@ -259,6 +309,7 @@
                             <constraint firstItem="h2Y-g3-lld" firstAttribute="height" secondItem="gZK-hj-UJC" secondAttribute="height" id="azD-gt-RoW"/>
                             <constraint firstItem="l9E-Ur-9wO" firstAttribute="height" secondItem="PO5-L1-yW0" secondAttribute="height" id="b8K-yd-Z1x"/>
                             <constraint firstItem="7B2-k8-Idg" firstAttribute="top" secondItem="4p4-gT-iG0" secondAttribute="bottom" constant="35" id="bBe-d6-uaM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PO5-L1-yW0" secondAttribute="trailing" symbolic="YES" id="bHc-4H-RWc"/>
                             <constraint firstItem="CFo-ue-fSv" firstAttribute="leading" secondItem="sCI-Vu-Y1C" secondAttribute="trailing" constant="16" id="bRP-fb-wv3"/>
                             <constraint firstItem="iOe-Ld-ggC" firstAttribute="leading" secondItem="5lg-Ep-mvm" secondAttribute="trailing" constant="15" id="bzg-lm-pz4"/>
                             <constraint firstItem="7B2-k8-Idg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="521" id="cAO-co-tyf"/>
@@ -269,6 +320,7 @@
                             <constraint firstItem="4p4-gT-iG0" firstAttribute="width" secondItem="nJg-zy-bLq" secondAttribute="width" id="dl0-lo-tTo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gQU-nK-YdA" secondAttribute="trailing" constant="300" id="dq5-bu-yQB"/>
                             <constraint firstItem="sCI-Vu-Y1C" firstAttribute="leading" secondItem="t19-Rl-E1y" secondAttribute="leading" id="eiY-qr-yHN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iOe-Ld-ggC" secondAttribute="trailing" constant="130" id="eyz-hJ-Xdu"/>
                             <constraint firstItem="h7z-Ph-TSn" firstAttribute="top" secondItem="t19-Rl-E1y" secondAttribute="bottom" constant="8" id="fL6-Bk-lDN"/>
                             <constraint firstItem="Xgr-Sa-Btl" firstAttribute="top" secondItem="PO5-L1-yW0" secondAttribute="bottom" constant="82" id="fTQ-dv-HgR"/>
                             <constraint firstItem="h7z-Ph-TSn" firstAttribute="leading" secondItem="vdf-PK-CMV" secondAttribute="trailing" constant="16" id="fsQ-Zy-gne"/>
@@ -283,8 +335,11 @@
                             <constraint firstItem="Rel-0U-Bza" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="kFL-h3-fCK"/>
                             <constraint firstItem="G10-Lz-9VB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="124" id="kh7-I9-O3z"/>
                             <constraint firstItem="nJg-zy-bLq" firstAttribute="width" secondItem="mwf-ee-2BN" secondAttribute="width" id="lst-Dd-jXj"/>
+                            <constraint firstItem="YHi-mU-9Xg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="n3T-eg-ZKK"/>
                             <constraint firstItem="n8K-bI-ssX" firstAttribute="top" secondItem="YHi-mU-9Xg" secondAttribute="bottom" constant="10" id="oPr-k2-77J"/>
                             <constraint firstItem="l9E-Ur-9wO" firstAttribute="leading" secondItem="YHi-mU-9Xg" secondAttribute="trailing" constant="7" id="ocu-3O-cKs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2V2-Bn-XBP" secondAttribute="trailing" constant="130" id="pIU-1S-Eqi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n8K-bI-ssX" secondAttribute="trailing" constant="130" id="pKx-8f-b0U"/>
                             <constraint firstItem="h2Y-g3-lld" firstAttribute="top" secondItem="YHi-mU-9Xg" secondAttribute="bottom" constant="10" id="pOR-l9-3zM"/>
                             <constraint firstItem="5lg-Ep-mvm" firstAttribute="height" secondItem="iOe-Ld-ggC" secondAttribute="height" id="pr7-hU-rji"/>
                             <constraint firstItem="vdf-PK-CMV" firstAttribute="top" secondItem="t19-Rl-E1y" secondAttribute="bottom" constant="8" id="qD1-Ll-gGa"/>
@@ -293,9 +348,10 @@
                             <constraint firstItem="G10-Lz-9VB" firstAttribute="top" secondItem="YHi-mU-9Xg" secondAttribute="bottom" constant="10" id="qlx-0d-yoL"/>
                             <constraint firstItem="mwf-ee-2BN" firstAttribute="leading" secondItem="2bw-oq-hfS" secondAttribute="trailing" constant="59" id="rJ0-BW-Zs4"/>
                             <constraint firstItem="PO5-L1-yW0" firstAttribute="top" secondItem="l9E-Ur-9wO" secondAttribute="bottom" constant="86" id="s1u-nZ-wHm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dtF-hP-mrp" secondAttribute="trailing" constant="125.5" id="sEj-8x-gKm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dtF-hP-mrp" secondAttribute="trailing" id="sEj-8x-gKm"/>
                             <constraint firstItem="PO5-L1-yW0" firstAttribute="height" secondItem="Xgr-Sa-Btl" secondAttribute="height" id="sGN-E7-pdv"/>
                             <constraint firstItem="PO5-L1-yW0" firstAttribute="leading" secondItem="Rel-0U-Bza" secondAttribute="trailing" constant="3" id="sZ8-QA-qeX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mwf-ee-2BN" secondAttribute="trailing" constant="130" id="tgM-Fl-3gr"/>
                             <constraint firstItem="6Zn-Kh-bKf" firstAttribute="top" secondItem="t19-Rl-E1y" secondAttribute="bottom" constant="8" id="tm4-zy-BKX"/>
                             <constraint firstItem="ULm-5o-C3P" firstAttribute="top" secondItem="Xgr-Sa-Btl" secondAttribute="bottom" constant="92" id="tsZ-5i-hKz"/>
                             <constraint firstItem="CFo-ue-fSv" firstAttribute="top" secondItem="Rel-0U-Bza" secondAttribute="bottom" constant="8" id="uNt-9U-bD9"/>
@@ -308,12 +364,21 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="Player1LifeMinusFive" destination="n8K-bI-ssX" id="S1d-DP-lo9"/>
+                        <outlet property="ifGameOverOutput" destination="7B2-k8-Idg" id="t5p-Iu-gXi"/>
+                        <outlet property="palyer1LifeplusOne" destination="G10-Lz-9VB" id="5BX-BY-GJY"/>
+                        <outlet property="player1LifeCountLabel" destination="l9E-Ur-9wO" id="28u-3F-znf"/>
+                        <outlet property="player1LifeMinusOne" destination="h2Y-g3-lld" id="24E-PG-Tsk"/>
+                        <outlet property="player1LifePlusFive" destination="gZK-hj-UJC" id="bDS-LL-FTV"/>
+                        <outlet property="player2LifeCountLabel" destination="PO5-L1-yW0" id="5Wo-cj-XDN"/>
+                        <outlet property="player3LifeCountLabel" destination="Xgr-Sa-Btl" id="juh-1P-BsS"/>
+                        <outlet property="player4LifeCountLabel" destination="ULm-5o-C3P" id="Uc0-v4-ElX"/>
                         <outlet property="view" destination="Rel-0U-Bza" id="ex0-Qf-gwW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48.799999999999997" y="149.77511244377811"/>
+            <point key="canvasLocation" x="47.200000000000003" y="148.87556221889056"/>
         </scene>
     </scenes>
 </document>
