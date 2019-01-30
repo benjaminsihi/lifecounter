@@ -109,7 +109,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="player2PlusOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6W4-U6-yDD"/>
+                                    <action selector="player2Plus5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9y8-IQ-EXL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOe-Ld-ggC">
@@ -364,12 +364,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="Player1LifeMinusFive" destination="n8K-bI-ssX" id="S1d-DP-lo9"/>
                         <outlet property="ifGameOverOutput" destination="7B2-k8-Idg" id="t5p-Iu-gXi"/>
-                        <outlet property="palyer1LifeplusOne" destination="G10-Lz-9VB" id="5BX-BY-GJY"/>
                         <outlet property="player1LifeCountLabel" destination="l9E-Ur-9wO" id="28u-3F-znf"/>
-                        <outlet property="player1LifeMinusOne" destination="h2Y-g3-lld" id="24E-PG-Tsk"/>
-                        <outlet property="player1LifePlusFive" destination="gZK-hj-UJC" id="bDS-LL-FTV"/>
                         <outlet property="player2LifeCountLabel" destination="PO5-L1-yW0" id="5Wo-cj-XDN"/>
                         <outlet property="player3LifeCountLabel" destination="Xgr-Sa-Btl" id="juh-1P-BsS"/>
                         <outlet property="player4LifeCountLabel" destination="ULm-5o-C3P" id="Uc0-v4-ElX"/>

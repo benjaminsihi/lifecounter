@@ -45,7 +45,8 @@ class ViewController: UIViewController {
         player2LifeCountLabel.text = String(Int(player2LifeCountLabel.text!)! - 1)
     }
     
-    @IBAction func player2PlusFive(_ sender: Any) {
+
+    @IBAction func player2Plus5(_ sender: Any) {
         player2LifeCountLabel.text = String(Int(player2LifeCountLabel.text!)! + 5)
     }
     
@@ -96,6 +97,7 @@ class ViewController: UIViewController {
             ifGameOverOutput.text = "\(name) lose the game."
         }
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
